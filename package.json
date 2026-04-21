@@ -1,0 +1,30 @@
+{
+  "name": "flollama-api",
+  "version": "1.0.0",
+  "description": "Public AI inference API for Flollama providing streaming chat responses.",
+  "main": "server.js",
+  "type": "module",
+  "license": "Unlicense",
+  "author": "Pratyush Kumar",
+  "homepage": "https://flollama.in",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Flollama/flollama-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Flollama/flollama-api/issues"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^0.3.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
